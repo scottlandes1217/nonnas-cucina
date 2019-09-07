@@ -1,5 +1,4 @@
 body {
-    font-weight: 300;
     background-color: #500000;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -21,6 +20,8 @@ p {
 }
 
 h1, h2, h3, h4, h5 {
+    font-family: lisbeth, sans-serif;
+    font-weight: 100;
     color:#ffffff;
     margin-bottom: .5em;
 }
@@ -28,11 +29,6 @@ h1, h2, h3, h4, h5 {
 a {
     color: #701012;
 }
-
-
-/* ------------------------------------------
-  DEMO STYLES
---------------------------------------------- */
 
 .home-section {
   border-bottom: 1px solid #999;
@@ -138,6 +134,13 @@ a {
 
 .main-header {
     text-align: center;
+}
+
+.header-text {
+    font-size: 30px;
+    font-family: lisbeth, sans-serif;
+    font-weight: 100;
+
 }
 
 .main-text {
