@@ -1,0 +1,298 @@
+body {
+    font-weight: 300;
+    background-color: #500000;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    color: #701012;
+    font: normal 100%/1.4 sans-serif;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    color:#ffffff;
+}
+
+h1, h2, h3, h4, h5 {
+    color:#ffffff;
+    margin-bottom: .5em;
+}
+
+a {
+    color: #701012;
+}
+
+
+/* ------------------------------------------
+  DEMO STYLES
+--------------------------------------------- */
+
+.home-section {
+  border-bottom: 1px solid #999;
+  text-align: center;
+  padding: 25px 0 50px 0;
+  width: 100%;
+}
+
+.content-section {
+  border-bottom: 1px solid #999;
+  text-align: center;
+  padding: 100px 0 0;
+  height: 800px;
+  width: 100%;
+}
+
+
+.content-text {
+    font-size: 15px;
+}
+
+
+.main-header {
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 46px;
+}
+
+@media only screen and (max-width: 1263px) {
+  .main-logo {
+    background: #aaaaaa;
+  }
+}
+
+.main-text {
+    padding-left: 20px;
+}
+
+.phone {
+    text-decoration: underline;
+}
+
+.row-hero {
+  position: relative;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+.hero {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media only screen and (min-width: 1263px) {
+  .row-logo {
+      width: 250px;
+      margin-top: -450px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+}
+.logo {
+  top: -10px;
+  max-width: 500px;
+  display: table-cell;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -42em;
+}
+
+.internal-logo {
+  position: absolute;
+  top: -10px;
+  left: 420px;
+  max-width: 155px; 
+}
+
+
+@media only screen and (max-width: 1263px) {
+  .home-section {
+    margin-top: 0em !important;
+  }
+}
+
+.home-section {
+  margin-top: 21em;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: -15px;
+}
+
+.main-header {
+    text-align: center;
+}
+
+.main-text {
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+.row-content{
+    margin-top: 50px;
+}
+
+.hero {
+    padding-top: 10px;
+    max-width: 100%;
+}
+
+
+/* Footer styling */
+
+.row-footer {
+    height: 100px;
+    border-top: solid;
+    border-color: #ffffff;
+}
+
+.col-footer {
+    margin-top: 15px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.row-footer {
+    background-color: #666666;
+    height: 210px;
+}
+
+.footer-logo {
+    padding-top: 25px;
+}
+
+.logo-interior {
+    top: -10px;
+    max-width: 150px;
+    display: table-cell;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -14.3em;
+    }
+
+/* Responsive Media Query for Footer */
+
+@media only screen and (max-width: 768px) {
+   
+   .contact-info-footer {
+        text-align: center;
+    }
+
+    .social-table-footer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row-footer {
+        height: 450px;
+    }
+}
+
+/* Responsive Media Query for Events */
+
+@media only screen and (max-width: 768px) {
+   
+   .events {
+        text-align: center;
+    }
+}
+
+
+/* Responsive Media Query for Interior Logo */
+
+@media only screen and (max-width: 1269px) {
+   
+   .logo-interior {
+        margin-top: -9.3em;
+    }
+}
+
+@media only screen and (max-width: 1269px) {
+   
+   .logo-interior {
+        margin-top: -9.3em;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+   
+   .logo-interior {
+        margin-top: -8.5em;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+   
+   .logo-interior {
+        margin-top: -5em;
+    }
+}
+
+
+/* Responsive Media Query for Logo */
+
+@media only screen and (max-width: 1263px) {
+   
+   .logo {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 350px;
+        margin-top: -36em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+   
+   .logo {
+        margin-top: -19.6em;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+   
+   .logo {
+        margin-top: -10.6em;
+    }
+}
+
+
+
+/* Responsive Media Query */
+
+@media only screen and (max-width: 768px) {
+   
+   .col-sm-4 {
+        width: 100%;
+    }
+
+    .text-center {
+        margin: 0 80px 0 80px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+      
+    .text-center {
+        margin: 0;
+  }
+}
