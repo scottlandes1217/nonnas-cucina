@@ -70,6 +70,8 @@ a {
 
 .phone {
     text-decoration: underline;
+    font-size: 18px;
+    color: #ffffff;
 }
 
 .row-hero {
