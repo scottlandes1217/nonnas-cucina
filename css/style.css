@@ -13,7 +13,6 @@ html {
 }
 
 p {
-    width: 90%;
     margin: 0 auto;
     margin-bottom: 0px;
     color:#ffffff;
@@ -29,6 +28,53 @@ h1, h2, h3, h4, h5 {
 a {
     color: #701012;
 }
+
+/* ------------------------------------------
+  Menu Underline Animation
+--------------------------------------------- */
+
+.menu-item a {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.menu-item a:hover {
+  color: #ffffff;
+}
+
+.menu-item a:before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 15px;
+  right: 25px;
+  left: 25px;
+  background-color: #ffffff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.menu-item a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.nav-collapse .active a:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/* ------------------------------------------
+  General Styles
+--------------------------------------------- */
+
 
 .icon {
   float: left;
@@ -66,15 +112,6 @@ a {
 
 .main-text {
     padding-left: 20px;
-}
-
-.phone {
-    text-decoration: underline;
-    font-size: 18px;
-}
-
-.phone a {
-    color: #ffffff !important;
 }
 
 .row-hero {
@@ -144,7 +181,9 @@ a {
 }
 
 
-/* Footer styling */
+/* ------------------------------------------
+  Footer styling
+--------------------------------------------- */
 
 .row-footer {
     height: 100px;
@@ -169,12 +208,36 @@ a {
     padding-top: 25px;
 }
 
-/* Responsive Media Query for Footer */
+.contact-info-footer {
+  float: left;
+  padding: 25px;
+  font-size: 15px;
+}
+
+.contact-info-footer a {
+  text-decoration: underline;
+}
+
+.footer-text {
+  float: right;
+  padding: 25px;
+  font-size: 15px;
+}
+
+/* ------------------------------------------
+  Responsive Media Query for Footer
+--------------------------------------------- */
 
 @media only screen and (max-width: 768px) {
    
    .contact-info-footer {
         text-align: center;
+        float: none !important;
+    }
+
+    .footer-text {
+        text-align: center;
+        float: none !important;
     }
 
     .social-table-footer {
@@ -188,7 +251,9 @@ a {
 }
 
 
-/* Responsive Media Query for Logo */
+/* ------------------------------------------
+  Responsive Media Query for Logo
+--------------------------------------------- */
 
 @media only screen and (max-width: 1263px) {
    
@@ -214,25 +279,4 @@ a {
         max-width: 175px;
         margin-top: -18em;
     }
-}
-
-
-/* Responsive Media Query */
-
-@media only screen and (max-width: 768px) {
-   
-   .col-sm-4 {
-        width: 100%;
-    }
-
-    .text-center {
-        margin: 0 80px 0 80px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-      
-    .text-center {
-        margin: 0;
-  }
 }
