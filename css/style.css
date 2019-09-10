@@ -29,6 +29,33 @@ a {
     color: #701012;
 }
 
+
+/* ------------------------------------------
+  Parallax Hero
+--------------------------------------------- */
+
+
+.parallax {
+  /* The image used */
+  background-image: url('http://www.nonnascucinabend.com/assets/wood-background.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .parallax {
+    width: 100%;
+}
+}
+
+
 /* ------------------------------------------
   Menu Underline Animation
 --------------------------------------------- */
@@ -90,6 +117,10 @@ a {
 --------------------------------------------- */
 
 
+.main-logo {
+  height: 600px;
+}
+
 .icon {
   float: left;
   width: 50px;
@@ -146,7 +177,6 @@ a {
 
 @media only screen and (min-width: 1263px) {
   .row-logo {
-      margin-top: -600px;
       margin-left: auto;
       margin-right: auto;
       display: block;
@@ -156,6 +186,7 @@ a {
 .logo {
   margin-right: auto;
   margin-left: auto;
+  margin-top: 60px;
 }
 
 
@@ -290,26 +321,32 @@ a {
 
 @media only screen and (max-width: 1263px) {
    
-   .logo {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 350px;
-        margin-top: -36em;
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
     }
+  .main-logo {
+    height: 500px;
+  }
 }
 
 @media only screen and (max-width: 895px) {
    
    .logo {
         max-width: 250px;
-        margin-top: -30em;
     }
+  .main-logo {
+    height: 400px;
+  }
 }
 
 @media only screen and (max-width: 750px) {
    
    .logo {
         max-width: 175px;
-        margin-top: -18em;
     }
+  .main-logo {
+    height: 250px;
+  }
 }
