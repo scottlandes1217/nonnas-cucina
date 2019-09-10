@@ -233,10 +233,6 @@ a {
     margin-top: 15px;
 }
 
-.footer-text {
-    text-align: center;
-}
-
 .row-footer {
     background-color: #666666;
     height: 210px;
@@ -258,7 +254,7 @@ a {
 
 .footer-text {
   float: right;
-  padding: 25px 25px 10px 25px;
+  padding: 25px 62px 10px 25px;
   font-size: 15px;
 }
 
