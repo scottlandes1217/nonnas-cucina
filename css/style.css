@@ -29,7 +29,6 @@ a {
     color: #701012;
 }
 
-
 /* ------------------------------------------
   Parallax Hero
 --------------------------------------------- */
@@ -176,18 +175,11 @@ a {
 }
 
 
-@media only screen and (min-width: 1263px) {
-  .row-logo {
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-  }
-}
-
 .logo {
   margin-right: auto;
   margin-left: auto;
   margin-top: 60px;
+ -webkit-transition: width 1s ease, height 1s ease;
 }
 
 
@@ -320,34 +312,75 @@ a {
   Responsive Media Query for Logo
 --------------------------------------------- */
 
-@media only screen and (max-width: 1263px) {
+
+@media only screen and (min-width: 1382px) {
    
   .logo {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 350px;
+    -webkit-transition: width 1s ease, height 1s ease;
+    height: 600px;
     }
   .main-logo {
+    -webkit-transition: width 1s ease, height 1s ease;
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 1382px) {
+   
+  .logo {
+    -webkit-transition: width 1s ease, height 1s ease;
+    height: 500px;
+    }
+  .main-logo {
+    -webkit-transition: width 1s ease, height 1s ease;
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+   
+   .logo {
+    -webkit-transition: width 1s ease, height 1s ease;
+        height: 350px;
+    }
+  .main-logo {
+    -webkit-transition: width 1s ease, height 1s ease;
     height: 500px;
   }
 }
 
-@media only screen and (max-width: 895px) {
+@media only screen and (max-width: 768px) {
    
    .logo {
-        max-width: 250px;
+    -webkit-transition: width 1s ease, height 1s ease;
+        height: 175px;
     }
   .main-logo {
-    height: 400px;
+    -webkit-transition: width 1s ease, height 1s ease;
+    height: 250px;
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 600px) {
    
    .logo {
-        max-width: 175px;
+    -webkit-transition: width 1s ease, height 1s ease;
+        height: 175px;
     }
   .main-logo {
+    -webkit-transition: width 1s ease, height 1s ease;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+   
+   .logo {
+    -webkit-transition: width 1s ease, height 1s ease;
+        height: 175px;
+    }
+  .main-logo {
+    -webkit-transition: width 1s ease, height 1s ease;
     height: 250px;
   }
 }
