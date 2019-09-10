@@ -37,7 +37,7 @@ a {
 
 .parallax {
   /* The image used */
-  background-image: url('http://www.nonnascucinabend.com/assets/wood-background.jpg');
+  background-image: url('../assets/wood-background.jpg');
 
   /* Full height */
   height: 100%; 
