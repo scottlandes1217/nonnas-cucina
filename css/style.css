@@ -93,7 +93,7 @@ a {
 .content-section {
   border-bottom: 1px solid #999;
   text-align: center;
-  padding: 100px 0 0;
+  padding: 50px 0 0;
   height: 800px;
   width: 100%;
 }
@@ -220,8 +220,20 @@ a {
 
 .footer-text {
   float: right;
-  padding: 25px;
+  padding: 25px 25px 10px 25px;
   font-size: 15px;
+}
+
+.logo-container {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-container-2 {
+  width: 100px;
+  float: right;
+  margin-right: 80px;
 }
 
 /* ------------------------------------------
@@ -239,6 +251,13 @@ a {
         text-align: center;
         float: none !important;
     }
+
+    .logo-container-2 {
+        margin-left: auto;
+        margin-right: auto;
+        float: none !important;
+        padding: 0;
+      }
 
     .social-table-footer {
         margin-left: auto;
