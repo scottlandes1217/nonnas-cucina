@@ -71,6 +71,20 @@ a {
   transform: scaleX(1);
 }
 
+@media screen and (max-width: 40em) {
+  .menu-item a:before {
+      bottom: 8px;
+      left: 10px;
+      width: 50px
+  }
+
+  .menu-item a:hover:before {
+      bottom: 8px;
+      left: 10px;
+      width: 50px
+  }
+}
+
 /* ------------------------------------------
   General Styles
 --------------------------------------------- */
