@@ -29,14 +29,38 @@ a {
     color: #701012;
 }
 
+
+
+
 /* ------------------------------------------
   Parallax Hero
 --------------------------------------------- */
 
 
-.parallax {
+.parallax-hero {
   /* The image used */
   background-image: url('../assets/wood-background.jpg');
+
+  /* Full height */
+  height: 100%; 
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .parallax-hero {
+    width: 100%;
+    background-attachment: scroll;
+  }
+}
+
+.parallax-1 {
+  /* The image used */
+  background-image: url('../assets/ravioli-1.jpg');
 
   /* Full height */
   height: 100%; 
@@ -49,7 +73,7 @@ a {
 }
 
 @media screen and (max-width: 992px) {
-  .parallax {
+  .parallax-1 {
     width: 100%;
     background-attachment: scroll;
   }
@@ -165,6 +189,7 @@ a {
   top: 0;
   left: 0;
 }
+
 .hero {
   position: relative;
   top: 0;
