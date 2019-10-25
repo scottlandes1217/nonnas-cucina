@@ -29,9 +29,28 @@ a {
     color: #701012;
 }
 
+h1 {
+  font-size: 50px;
+}
 
 
+/* ------------------------------------------
+  Menu Styling
+--------------------------------------------- */
 
+.menu-header {
+  font-size: 35px;
+  padding-top: 20px;
+}
+
+.menu-text {
+  font-size: 20px;
+}
+
+.vegan {
+  font-size: 15px;
+  font-style: italic;
+}
 /* ------------------------------------------
   Parallax Hero
 --------------------------------------------- */
@@ -157,7 +176,7 @@ a {
 .home-section {
   border-bottom: 1px solid #999;
   text-align: center;
-  margin-top: 45px;
+  margin-top: 25px;
   padding: 25px 0 50px 0;
   width: 100%;
 }
@@ -165,14 +184,13 @@ a {
 .content-section {
   border-bottom: 1px solid #999;
   text-align: center;
-  padding: 50px 0 0;
-  height: 800px;
+  padding: 50px 0 75px 0;
   width: 100%;
 }
 
 
 .content-text {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 
@@ -246,6 +264,13 @@ a {
     max-width: 100%;
 }
 
+.phone a {
+  color: #fff;
+}
+
+.phone a:hover {
+  color: #701012;
+}
 
 /* ------------------------------------------
   Footer styling
@@ -377,7 +402,7 @@ a {
    
    .logo {
     -webkit-transition: width 1s ease, height 1s ease;
-        height: 175px;
+        height: 225px;
     }
   .main-logo {
     -webkit-transition: width 1s ease, height 1s ease;
@@ -389,7 +414,7 @@ a {
    
    .logo {
     -webkit-transition: width 1s ease, height 1s ease;
-        height: 175px;
+        height: 200px;
     }
   .main-logo {
     -webkit-transition: width 1s ease, height 1s ease;
