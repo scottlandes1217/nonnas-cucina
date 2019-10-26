@@ -187,6 +187,12 @@ h1 {
   padding-top: 20px;
 }
 
+@media only screen and (max-width: 992px) {
+.content-image {
+  display: none;
+}
+}
+
 .main-logo {
   height: 600px;
 }
@@ -222,7 +228,6 @@ h1 {
 }
 
 .content-section {
-  border-bottom: 1px solid #999;
   padding: 50px 0 75px 0;
   width: 100%;
 }
@@ -346,8 +351,14 @@ h1 {
 
 .footer-text {
   float: right;
-  padding: 25px 0 0 0;
+  padding: 25px 62px 10px 25px;
   font-size: 15px;
+}
+
+@media only screen and (max-width: 769px) {
+  .footer-text {
+    padding: 25px 0 0 0;
+  }
 }
 
 .logo-container {
