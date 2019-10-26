@@ -219,8 +219,11 @@ h1 {
   padding: 7px 0px 5px 5px;
 }
 
+.divider-image {
+  height: 100px;
+}
+
 .home-section {
-  border-bottom: 1px solid #999;
   text-align: center;
   margin-top: 25px;
   padding: 25px 0 50px 0;
@@ -228,7 +231,7 @@ h1 {
 }
 
 .content-section {
-  padding: 50px 0 75px 0;
+  padding: 20px 0 20px 0;
   width: 100%;
 }
 
