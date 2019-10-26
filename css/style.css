@@ -197,6 +197,13 @@ h1 {
   height: 600px;
 }
 
+.divider-img {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 100px;
+}
+
 .about-image {
   max-width: 300px;
   float: left;
