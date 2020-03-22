@@ -170,9 +170,20 @@ h1 {
   height: auto;
 }
 
+.custom-btn {
+  width: 200px;
+  font-size:20px;
+}
+
+.content-image {
+  max-height: 1000px;
+  padding:100px;
+}
+
 .content-text-about {
   font-size: 18px;
-  padding: 15px;
+  padding: 25px;
+  padding-left: 50px;
   text-align: center;
 }
 
