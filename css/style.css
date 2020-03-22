@@ -170,6 +170,11 @@ h1 {
   height: auto;
 }
 
+.hours{
+  text-align: center;
+  font-size: 20px;
+}
+
 .custom-btn {
   width: 200px;
   font-size:20px;
