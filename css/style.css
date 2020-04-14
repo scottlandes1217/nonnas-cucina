@@ -75,12 +75,17 @@ h1 {
 }
 
 .modal-window>div {
-  width: 400px;
+  width: 80%;
   position: relative;
-  margin: 10% auto;
+  margin: 5% auto;
   padding: 2rem;
   background: #fff;
   color: #444;
+}
+
+.modal-window iframe {
+margin-top: 25px;
+height: 75vh;
 }
 
 .modal-window header {
