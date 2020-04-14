@@ -75,21 +75,23 @@ h1 {
 }
 
 .modal-window>div {
-  width: 80%;
+  width: 95%;
   position: relative;
   margin: 5% auto;
-  padding: 2rem;
   background: #fff;
   color: #444;
 }
 
 .modal-window iframe {
-margin-top: 30px;
+border: none;
 height: 75vh;
 }
 
-.modal-window header {
-  font-weight: bold;
+.modal-window .header-text {
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  color: black;
 }
 
 .modal-close {
