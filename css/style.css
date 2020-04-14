@@ -84,7 +84,7 @@ h1 {
 }
 
 .modal-window iframe {
-margin-top: 25px;
+margin-top: 30px;
 height: 75vh;
 }
 
@@ -106,6 +106,7 @@ height: 75vh;
 
 .modal-close:hover {
   color: #000;
+  text-decoration: none;
 }
 
 .modal-window h1 {
