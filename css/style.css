@@ -33,6 +33,10 @@ p a {
     text-decoration: underline;
 }
 
+p a:hover {
+    color: #500000;
+}
+
 button {
     color: #500000;
 }
