@@ -71,7 +71,7 @@ h1 {
 /* Modal Content */
 .modal-content {
   background-color: #fefefe;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #888;
   width: 80%;
   margin: auto;
@@ -85,7 +85,7 @@ h1 {
 }
 
 .modal-content iframe {
-  height: 70vh;
+  height: 65vh;
 }
 
 /* The Close Button */
