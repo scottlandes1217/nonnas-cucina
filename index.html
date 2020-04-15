@@ -25,7 +25,7 @@
           <li class="menu-item"><a href="#home" data-scroll>Home</a></li>
           <li class="menu-item"><a href="#about" data-scroll>About</a></li>
           <li class="menu-item"><a href="#contact" data-scroll>Contact Us</a></li>
-          <li class="menu-item"><a href="#open-modal">Order Online</a></li>
+          <li class="menu-item modalnavbtn"><a id="myBtn1">Order Online</a></li>
         </ul>
       </nav>
     </header>
@@ -51,17 +51,19 @@
       <h1>Nonna's Cucina</h1>
       <p class ="content-text">The new cart is here and we are also accepting Online Orders! We will be parked at General Duffy’s Waterhole on 404 SW Forest Ave. Redmond, 97756.</p>
     </br>
-      <a href="#open-modal"><button class="btn custom-btn" style="text-align:center;">Order Online</button></a>
+      <button class="btn custom-btn" id="myBtn2" style="text-align:center;">Order Online</button>
       </br>
       <a target="_blank" href="https://squareup.com/gift/MVG58RCKN4C1Q/order?external_source=site"><button class="btn custom-btn" style="text-align:center;">Buy eGift Card</button></a>
     </section>
 
-    <div id="open-modal" class="modal-window">
-      <div>
-        <span class="header-text">Order Online</span><a href="#modal-close" title="Close" class="modal-close">&times;</a>
-        <div>
-          <iframe src="https://nonnascucinabend.square.site/s/order" width="100%" allowfullscreen></iframe>
-        </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+          <div class="modalheader">
+            <span class="header-text">Order Online</span><span class="close">&times;</span>
+          </div>
+          <div>
+            <iframe src="https://nonnascucinabend.square.site/s/order" width="100%" allowfullscreen></iframe>
+          </div>
       </div>
     </div>
 
@@ -135,5 +137,41 @@
     <script src="js/fastclick.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/fixed-responsive-nav.js"></script>
-  </body>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn1 = document.getElementById("myBtn1");
+
+      var btn2 = document.getElementById("myBtn2");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal 
+      btn1.onclick = function() {
+        modal.style.display = "block";
+      }
+
+      btn2.onclick = function() {
+        modal.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+
+</head>
+</body>
 </html>

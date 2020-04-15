@@ -53,76 +53,58 @@ h1 {
 /* ------------------------------------------
   Modal Styling
 --------------------------------------------- */
-
-.modal-window {
-  position: fixed;
-  background-color: rgba(200, 200, 200, 0.75);
-  top: 0;
-  right: 0;
-  bottom: 0;
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
   left: 0;
-  z-index: 999;
-  opacity: 0;
-  pointer-events: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-.modal-window:target {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.modal-window>div {
-  width: 70%;
-  position: relative;
-  margin: 5% auto;
-  background: #fff;
-  color: #444;
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  margin: auto;
+  height: 100%;
 }
 
 @media screen and (max-width: 992px) {
-  .modal-window>div {
-    width: 95%;
-  }
-  .modal-window iframe {
-  height: 100vh !important;
+  .modal-content {
+    width: 100%;
   }
 }
 
-.modal-window iframe {
-border: none;
-height: 75vh;
+.modal-content iframe {
+  height: 80vh;
 }
 
-.modal-window .header-text {
-  text-align: center;
-  margin: auto;
-  font-size: 25px;
-  color: black;
+/* The Close Button */
+.close {
+  color: #666;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-.modal-close {
-  color: #aaa;
-  line-height: 50px;
-  font-size: 25px;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 0;
-  width: 70px;
-  text-decoration: none;
-}
-
-.modal-close:hover {
+.close:hover,
+.close:focus {
   color: #000;
   text-decoration: none;
+  cursor: pointer;
 }
 
-.modal-window h1 {
-  font-size: 150%;
-  margin: 0 0 15px;
+.modalnavbtn a {
+  cursor: pointer;
 }
 
 /* ------------------------------------------
