@@ -269,9 +269,23 @@ h1 {
   }
 }
 
+.custom-btn-2 {
+  background-color: #500000;
+  color:white;
+  border: 1px solid white;
+  width: 205px;
+  font-size:20px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.custom-btn-2:hover {
+  background-color:white;
+}
+
 .custom-btn {
   background-color: white;
-  width: 200px;
+  width: 205px;
   font-size:20px;
   margin: 20px;
   font-weight: bold;
